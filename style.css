@@ -273,5 +273,13 @@ footer{
     .project-video video{
         width: 250px;
     }
-
+     .skills  {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .skill-grid {
+    width: 90%;
+    margin: 0 auto;
+  }
 }
+
