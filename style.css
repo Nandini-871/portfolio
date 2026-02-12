@@ -177,6 +177,7 @@ float {
     align-items: center;
     justify-content: center;
     height: 40%;
+    margin-bottom : 80px;
 }
 .project-card h3{
     width: 90%;
@@ -272,4 +273,5 @@ footer{
     .project-video video{
         width: 250px;
     }
+
 }
