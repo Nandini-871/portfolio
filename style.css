@@ -213,6 +213,8 @@ float {
     mix-blend-mode:lighten;
     font-size: 2rem;
     font-weight: 300;
+    margin-bottom:80px;
+    padding:10px;
 }
 .project-video video{
     object-fit: cover;
@@ -358,5 +360,6 @@ footer{
 }
 
 }
+
 
 
