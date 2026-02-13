@@ -246,40 +246,117 @@ footer{
     color: var(--accent);
     transform: translateY(-3px);
 }
-@media (max-width:768px){
-    .hero{
-        flex-direction: column;
-        text-align: center;
-        padding-top: 8rem;
-    }
-    .her-content{
-        margin-bottom:3rem ;
-        padding-right: 0;
-    }
-    .portfolio-img{
-        height: 280px;
-        width: 280px;
-    }
-    .nav-links{
-        display: none;
-    }
-    .logo{
-        font-size: 1.5rem;
-        padding-left:2rem ;
-    }
-    .project{
-        margin-bottom:300px ;
-    }
-    .project-video video{
-        width: 250px;
-    }
-     .skills  {
-    font-size: 1.6rem;
-    text-align: center;
+@media (max-width: 992px){
+  .hero{
+    padding: 10% 4%;
   }
-  .skill-grid {
-    width: 90%;
-    margin: 0 auto;
+
+  .hero h1{
+    font-size: 3rem;
+  }
+
+  .portfolio-img{
+    width: 320px;
+    height: 320px;
+  }
+
+  .project-video{
+    min-width: 0;
   }
 }
+@media (max-width: 768px){
+
+  body{
+    overflow-x: hidden;
+  }
+
+  .navbar{
+    padding: 1rem;
+  }
+
+  .nav-links{
+    display: none;
+  }
+
+  .hero{
+    flex-direction: column;
+    text-align: center;
+    padding: 6rem 1.2rem 3rem;
+    gap: 2rem;
+  }
+
+  .hero h1{
+    font-size: 2.4rem;
+  }
+
+  .hero p{
+    font-size: 1rem;
+  }
+
+  .portfolio-img{
+    width: 240px;
+    height: 240px;
+  }
+
+  .skills{
+    padding: 3rem 1.2rem;
+  }
+
+  .skill-grid{
+    width: 100%;
+  }
+
+  .project-card{
+    flex-direction: column;
+    gap: 1.8rem;
+    padding: 1.5rem;
+  }
+
+  .project-card h3{
+    text-wrap: wrap;
+    text-align: center;
+  }
+
+  .project-card p{
+    width: 100%;
+    min-width: unset;
+    text-align: center;
+  }
+
+  .project-video{
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (max-width: 360px){
+
+  .hero h1{
+    font-size: 2rem;
+  }
+
+  .hero p{
+    font-size: 0.95rem;
+  }
+
+  .portfolio-img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .project-card h3{
+    font-size: 1.15rem;
+  }
+
+  .project-card p{
+    font-size: 0.9rem;
+  }
+
+  .cta-btn{
+    padding: 0.7rem 1.4rem;
+    font-size: 0.9rem;
+  }
+}
+
+}
+
 
